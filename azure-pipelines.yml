@@ -12,5 +12,5 @@ steps:
 
 - task: Bash@3
   inputs:
-    filePath: 'cal.bat'
+    filePath: 'calc.bat'
     arguments: '100 90'
