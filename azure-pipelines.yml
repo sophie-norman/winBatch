@@ -9,3 +9,8 @@ steps:
   inputs:
     filename: 'power.bat'
     arguments: '3 4'
+
+- task: Bash@3
+  inputs:
+    filePath: 'cal.bat'
+    arguments: '100 90'
