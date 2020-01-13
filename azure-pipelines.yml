@@ -10,7 +10,7 @@ steps:
     filename: 'power.bat'
     arguments: '3 4'
 
-- task: Bash@3
+- task: BatchScript@1
   inputs:
-    filePath: 'calc.bat'
+    filename: 'calc.bat'
     arguments: '100 90'
